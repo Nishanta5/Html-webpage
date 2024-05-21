@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    background-color: rgb(115, 115, 115);
+    margin: 0px;
+    align-items: center;
+}
+.middle-part {
+    grid-column: 2 / 3;
+    display: flex;
+    justify-content: space-around;
+}
+.starting-part {
+    grid-column: 1/ 2;
+    size: 10%;
+}
+.header-two {
+    padding: 10px;
+    margin: 0px;
+}
+.header-three {
+    padding: 10px;
+    margin: 0px;
+}
+.header-four {
+    padding: 10px;
+    margin: 0px;
+}
+.header-five {
+    padding: 10px;
+    margin: 0px;
+}
+.header-six {
+    padding: 10px;
+    margin: 0px;
+}
+.header-seven {
+    padding: 10px;
+    margin: 0px;
+}
+.last-part {
+    display: flex;
+    justify-content: space-around;
+}
+.button {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.phone-no {
+    font-size: 18px;
+    font-weight: bold;
+}
